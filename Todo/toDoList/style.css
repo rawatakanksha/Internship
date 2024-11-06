@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-color: #FFEBD4;
+
+}
+h1{
+    padding: 5px;
+    margin: 5px;
+    font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.taskForm{
+    align-items: center;
+    justify-content: center;
+}
+
+.props{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.mainContainer{
+    padding: 10px;
+    margin: 50px;
+    height: 500px;
+    width: 70em;
+    /* margin-left: 550px; */
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #F7B5CA;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+}
+.todoValue{
+    /* padding: 10px; */
+    /* margin: 50px; */
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    z-index: 1;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+.taskField{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+
+}
+.mainContainer{
+    z-index: 3;
+}
+.button{
+    
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    border: none;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    margin: 5px;
+    font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    
+}
+
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 5px;
+}
+
+.toDoList{
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}
+li{
+    margin: 5px 0;
+    display: inline-block;
+    justify-content:space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+        background-color: #FFEBD4;
+        font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+        /* width: 50rem; */
+}
+.spanContainer{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* flex-direction: row; */
+
+}
+.liCont{
+    margin: 5px 0;
+    width: 65rem;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+        background-color: #FFEBD4;
+
+}
+.buttonCon{
+    display: flex;
+    justify-content:space-between;
+    /* background-color: aqua; */
+    width: 250px;
+    
+}
+.done{
+    width: 60px;
+    font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+}
+.edit{
+    width: 60px;
+    font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.lineThrough{
+    text-decoration: line-through !important;
+}
+.removelineThrough{
+    text-decoration: none !important;
+}
+
+.checkbox:checked , li.listC{
+    text-decoration: line-through;
+ } 
+ .deleteTask{
+    background-color:aliceblue;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+ }
+

@@ -1,0 +1,13 @@
+#root {
+  border-radius: 20px;
+  background-color:darkseagreen;
+  margin: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+

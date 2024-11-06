@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/Oct-Calculator/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="innerContainer">
+
+        <form id="calc_form">
+            <header class="calc_header">
+            <input type="text" disabled id="output" class="calc_output" value="0"/>
+            </header>
+            <footer class="calc_footer">
+                <div class="btn_group">
+                    <button data-type="clear" type="rest" value="clear" class=" btnDisplay btn btn-grey" id="backspace">AC</button>
+                    <button data-type="operator" value="invert" class="btnDisplay btn btn-grey" id="delete">Del</button>
+                    <button data-type="operator" value="%" class="btnDisplay btn btn-grey" id="modulus">%</button>
+                    <button data-type="operator" value="/" class="btnDisplay btn btn-orange" id="divide">÷</button>
+
+                </div>
+                <div class="btn_group">
+                    <button data-type="operand"
+                    value="7"
+                    class="btnDisplay btn btn-dark-grey"
+                    id="7">7</button>
+
+                <button data-type="operand"value="8"class="btnDisplay btn btn-dark-grey" id="8">8</button>
+                <button data-type="operand"value="9"class="btnDisplay btn btn-dark-grey"id="9">9</button>
+                <button data-type="operator" value="*" class="btnDisplay btn btn-orange" id="multiply">x</button>
+                </div>
+                <div class="btn_group">
+                    <button data-type="operand" value="4" class="btnDisplay btn btn-dark-grey">4</button>
+                    <button data-type="operand" value="5" class="btnDisplay btn btn-dark-grey">5</button>
+                    <button data-type="operand" value="6" class="btnDisplay btn btn-dark-grey">6</button>
+                    <button data-type="operator" value="-" class="btnDisplay btn btn-orange">-</button>
+                </div>
+                <div class="btn_group">
+                    <button data-type="operand" value="1" class="btnDisplay btn btn-dark-grey">1</button>
+                    <button data-type="operand" value="2" class="btnDisplay btn btn-dark-grey">2</button>
+                    <button data-type="operand" value="3" class="btnDisplay btn btn-dark-grey">3</button>
+                    <button data-type="operator" value="+" class="btnDisplay btn btn-orange">+</button>
+                </div>
+                <div class="btn_group">
+                    <button data-type="operand" value="0" class="btnDisplay btn btn-grow btn-dark-grey">0</button>
+                    <button data-type="operand" value="." class="btnDisplay btn btn-dark-grey">.</button>
+                    <button value="=" data-type="operator" class="btnDisplay btn btn-orange" id="equal">=</button>
+                  </div>
+            </footer>
+        </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
